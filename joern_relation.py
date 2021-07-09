@@ -59,12 +59,6 @@ def graphRelation(rootpath,pathdir,tag):
                     new_node1 = []
                     new_node2 = []
                     new_nodes = list(range(0, len(nodes)))
-                    for x in node1:
-                        for i in range(len(nodes)):
-                            if x == nodes[i]:
-                                # new_node1.append(x.replace(str(x), str(i)))
-                                new_node1.append(str(i))
-                                break
                     for x in node2:
                         for i in range(len(nodes)):
                             if x == nodes[i]:
